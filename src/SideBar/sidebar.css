@@ -1,0 +1,15 @@
+
+.link:hover{
+    background: white;
+    color:#179cbc;
+    transition: all 0.5s;
+    margin-top: 10px;
+}
+
+.active::before{
+    content: "";
+    width: 8px;
+    height: 100%;
+    background: red;
+    
+}
